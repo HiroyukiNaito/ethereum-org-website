@@ -1045,6 +1045,17 @@ const chains = [
     chain: "MegaETH",
   },
   {
+    name: "Robinhood Chain",
+    infoURL: "https://docs.robinhood.com/chain",
+    chainId: 4663,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "OEV Network",
     infoURL: "https://api3.org/oev/",
     chainId: 4913,
@@ -2069,17 +2080,6 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "ZERO Network",
-    infoURL: "https://docs.zero.network",
-    chainId: 543210,
-    nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    chain: "ZERONetwork",
-  },
-  {
     name: "DustBoy IoT",
     infoURL: "https://www.cmuccdc.org/",
     chainId: 555888,
@@ -2487,6 +2487,17 @@ const chains = [
       decimals: 18,
     },
     chain: "NEAR",
+  },
+  {
+    name: "Crynux on Near",
+    infoURL: "https://crynux.io",
+    chainId: 1313161911,
+    nativeCurrency: {
+      name: "Crynux",
+      symbol: "CNX",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "RARI Chain Mainnet",
